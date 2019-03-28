@@ -13,7 +13,7 @@
 <meta property="og:description" content="我终于开始了学习 React ， 有点汗颜 。 我打算怎么学第一、跟着官方文档第二、先学习纯 React ，不去理会其他复杂的工具 。比如 redux 学习之前 ；；； React 是什么 , 和其他框架的简单对比官网时这么说的  A JavaScript library for building user interfaces  翻译过来就是 ： 一个用于构建用户界面的 JavaScript 库">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://raw.githubusercontent.com/sleafummer/Markdown_Images/master/hello-react/Zuckerberg.jpg">
-<meta property="og:updated_time" content="2019-03-28T09:57:13.644Z">
+<meta property="og:updated_time" content="2019-03-28T12:20:46.317Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="你好, 我叫 React">
 <meta name="twitter:description" content="我终于开始了学习 React ， 有点汗颜 。 我打算怎么学第一、跟着官方文档第二、先学习纯 React ，不去理会其他复杂的工具 。比如 redux 学习之前 ；；； React 是什么 , 和其他框架的简单对比官网时这么说的  A JavaScript library for building user interfaces  翻译过来就是 ： 一个用于构建用户界面的 JavaScript 库">
@@ -137,6 +137,7 @@
 <p>3 ）<strong>组件</strong></p>
 <p>组件分为2种 ， 一种叫 <strong>函数组件</strong> ， 另一种叫 <strong>React 组件</strong> 。 这两种组件在 React 里是等效的 。</p>
 <p>所有 React 组件必须是纯函数</p>
+<p>通常函数组件一般被设计成无状态组件 ， 尽可能使用无状态组件是一种很好的做法 。 其实这很好理解 ： 如果有这样一个组件 ， 这意味着你不需要访问组件状态或生命周期方法 。 它只关注输入和输出 ， 而且尽可能小巧且能重复利用 。 无任何副作用 。</p>
 <p>4 ）<strong>ReactDOM</strong></p>
 <p>ReactDOM 负责将组件挂载到页面上 。</p>
 <p>5 ）<strong>props</strong></p>
@@ -170,11 +171,15 @@
 <p>其实 ， 我觉得也没有必要弄出一个受控组件的概念 。 感觉是多余的 。可能我在后面会改变这种想法 ， 但至少我现在是这样人为的 。</p>
 <p>当然 ， 有受控组件 ， 也有非受控组件 。这是实现输入表单的另一种方式 。 当然 ， 我肯定不会现在看它的 。</p>
 <p>大多数情况下 ， React 推荐使用受控组件 。</p>
+<p>11 ） <strong>单向数据流</strong></p>
+<p>在 React 中 ， 你必须遵循单向数据流这一规则 ， 这带来一个好处 ， 就是子组件永远不会在父组件不知情的情况下修改了父组件的数据 。 它使得组件更容易维护 ， 应该是这样 ， 我是这样理解的 。</p>
 <h5 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h5><p>写到这里 ， 我大概已经知道 React 是什么了 。 它使用组件的方式渲染 UI 界面 ， 并提供了一些数据 、 钩子函数 、 事件的一些机制 。</p>
 <p>接下来 ， 我会用纯 React 实现一个真实 API 的分页新闻列表 ， 马上进入 React 学习之旅吧 。</p>
 
   </article>
   <footer class="f-cf">
+    
+      <a href="/2019/03/28/start-from-create-react-app/" class="link f-fl">⟵从 create-react-app 开始</a>
     
     
   </footer>
