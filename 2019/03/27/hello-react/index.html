@@ -13,7 +13,7 @@
 <meta property="og:description" content="我终于开始了学习 React ， 有点汗颜 。 我打算怎么学第一、跟着官方文档第二、先学习纯 React ，不去理会其他复杂的工具 。比如 redux 学习之前 ；；； React 是什么 , 和其他框架的简单对比官网时这么说的  A JavaScript library for building user interfaces  翻译过来就是 ： 一个用于构建用户界面的 JavaScript 库">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://raw.githubusercontent.com/sleafummer/Markdown_Images/master/hello-react/Zuckerberg.jpg">
-<meta property="og:updated_time" content="2019-03-28T12:20:46.317Z">
+<meta property="og:updated_time" content="2019-03-29T09:54:10.673Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="你好, 我叫 React">
 <meta name="twitter:description" content="我终于开始了学习 React ， 有点汗颜 。 我打算怎么学第一、跟着官方文档第二、先学习纯 React ，不去理会其他复杂的工具 。比如 redux 学习之前 ；；； React 是什么 , 和其他框架的简单对比官网时这么说的  A JavaScript library for building user interfaces  翻译过来就是 ： 一个用于构建用户界面的 JavaScript 库">
@@ -157,7 +157,8 @@
 <p>基本上跟 DOM 事件处理 差不多 ， 只是有些语法上的差异 。</p>
 <p>有一点非常重要 ， 就是必须谨慎对待 JSX 回调函数中的 this ， 如果不注意 ， 会引起 bug 。</p>
 <p>通常在构造函数中用剪头函数就能解决啦 。</p>
-<p>事件传参 ， 这个也需要注意 。</p>
+<p>“React 的官方文档中坚持在构造函数中绑定类方法”</p>
+<p>但是React的官方文档中坚持在构造函数中绑定类方法 ， 所以我也会采用同样的方式 。</p>
 <p>9 ）<strong>Keys</strong></p>
 <p>在 React 中 ， keys 比较重要 ， 因为 Diff 算法需要用到他 。<br>当元素没有 id 的时候 ， 万不得已 ， 你可以使用元素的索引作为 key 。<br>如果列表的顺序可能发生变化 ， 千万不要用 index 作为 key ，这是极不负责任的 。</p>
 <p>10 ）<strong>表单</strong></p>
@@ -179,7 +180,7 @@
   </article>
   <footer class="f-cf">
     
-      <a href="/2019/03/28/start-from-create-react-app/" class="link f-fl">⟵从 create-react-app 开始</a>
+      <a href="/2019/04/04/react-without-jsx/" class="link f-fl">⟵不使用 JSX 的 React</a>
     
     
   </footer>
